@@ -1,176 +1,5 @@
 proxy-providers: {}
 proxies:
-    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 51.77 MB/s"
-      network: ws
-      port: 443
-      server: 104.17.25.173
-      servername: l.ayovo.netlib.re
-      tls: true
-      type: vless
-      uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-      ws-opts:
-        headers:
-            Host: l.ayovo.netlib.re
-        path: /?ed=2560
-    - client-fingerprint: chrome
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 46.05 MB/s"
-      network: ws
-      port: 443
-      server: 104.17.25.173
-      servername: l.ayovo.netlib.re
-      tls: true
-      type: vless
-      uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-      ws-opts:
-        headers:
-            Host: l.ayovo.netlib.re
-        path: /x-aniu/?ed=2560
-    - client-fingerprint: chrome
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 31.37 MB/s"
-      network: ws
-      port: 443
-      server: 104.16.147.32
-      servername: l.ayovo.netlib.re
-      tls: true
-      type: vless
-      uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-      ws-opts:
-        headers:
-            Host: l.ayovo.netlib.re
-        path: /?ed=2560
-    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 31.31 MB/s"
-      network: ws
-      port: 443
-      server: 104.16.250.22
-      servername: l.ayovo.netlib.re
-      tls: true
-      type: vless
-      udp: true
-      uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-      ws-opts:
-        headers:
-            Host: l.ayovo.netlib.re
-        path: /?ed=2560
-    - client-fingerprint: chrome
-      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 29.16 MB/s"
-      network: ws
-      port: 443
-      server: cloudflare.182682.xyz
-      servername: l.ayovo.netlib.re
-      tls: true
-      type: vless
-      udp: true
-      uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-      ws-opts:
-        headers:
-            Host: l.ayovo.netlib.re
-        path: /?ed=2560
-    - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 26.95 MB/s"
-      password: kaQH3hGdcP80XEDI
-      port: 443
-      server: admin.c2.havij.co
-      type: ss
-    - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 26.78 MB/s"
-      password: kaQH3hGdcP80XEDI
-      port: 443
-      server: admin.c2.havij.co
-      type: ss
-    - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 26.55 MB/s"
-      password: kaQH3hGdcP80XEDI
-      port: 443
-      server: admin.c2.havij.co
-      type: ss
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 24.40 MB/s"
-      password: test.+
-      port: 30446
-      server: testkr3.ssv.vc
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: test
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 24.28 MB/s"
-      password: test.+
-      port: 30446
-      server: testkr3.ssv.vc
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: test
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 24.23 MB/s"
-      password: test.+
-      port: 30446
-      server: testkr3.ssv.vc
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: test
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 24.19 MB/s"
-      password: test.+
-      port: 30446
-      server: testkr3.ssv.vc
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: test
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 24.13 MB/s"
-      password: test.+
-      port: 30446
-      server: testkr3.ssv.vc
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: test
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 24.11 MB/s"
-      password: test.+
-      port: 30446
-      server: testkr3.ssv.vc
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: test
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 24.10 MB/s"
-      password: test.+
-      port: 30446
-      server: testkr3.ssv.vc
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: test
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 24.08 MB/s"
-      password: test.+
-      port: 30446
-      server: testkr3.ssv.vc
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: test
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 24.05 MB/s"
-      password: test.+
-      port: 30446
-      server: testkr3.ssv.vc
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: test
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 23.93 MB/s"
-      password: test.+
-      port: 30446
-      server: testkr3.ssv.vc
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: test
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 23.93 MB/s"
-      password: test.+
-      port: 30446
-      server: testkr3.ssv.vc
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: test
     - client-fingerprint: chrome
       http-opts:
         headers:
@@ -179,38 +8,7 @@ proxies:
         method: GET
         path:
             - /
-      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 23.87 MB/s"
-      network: http
-      port: 59421
-      server: 94.237.93.9
-      tls: false
-      type: vless
-      uuid: ccbc334b-de33-4431-89b4-35b756230f51
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 23.81 MB/s"
-      password: test.+
-      port: 30446
-      server: testkr3.ssv.vc
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: test
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 23.79 MB/s"
-      password: test.+
-      port: 30446
-      server: testkr3.ssv.vc
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: test
-    - client-fingerprint: chrome
-      http-opts:
-        headers:
-            Host:
-                - soft98.ir
-        method: GET
-        path:
-            - /
-      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 23.69 MB/s"
+      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 26.14 MB/s"
       network: http
       port: 59421
       server: 94.237.93.9
@@ -227,12 +25,14 @@ proxies:
         method: GET
         path:
             - /
-      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 23.66 MB/s"
+      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 25.99 MB/s"
       network: http
       port: 59421
       server: 94.237.93.9
+      servername: soft98.ir
       tls: false
       type: vless
+      udp: true
       uuid: ccbc334b-de33-4431-89b4-35b756230f51
     - http-opts:
         headers:
@@ -241,7 +41,7 @@ proxies:
         method: GET
         path:
             - /
-      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 23.60 MB/s"
+      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 25.74 MB/s"
       network: http
       port: 59421
       server: 94.237.93.9
@@ -258,7 +58,7 @@ proxies:
         method: GET
         path:
             - /
-      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 23.52 MB/s"
+      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 25.68 MB/s"
       network: http
       port: 59421
       server: 94.237.93.9
@@ -267,66 +67,145 @@ proxies:
       type: vless
       udp: true
       uuid: ccbc334b-de33-4431-89b4-35b756230f51
-    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 23.15 MB/s"
-      network: ws
+    - client-fingerprint: chrome
+      http-opts:
+        headers:
+            Host:
+                - soft98.ir
+        method: GET
+        path:
+            - /
+      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 25.28 MB/s"
+      network: http
+      port: 59421
+      server: 94.237.93.9
+      tls: false
+      type: vless
+      uuid: ccbc334b-de33-4431-89b4-35b756230f51
+    - client-fingerprint: chrome
+      http-opts:
+        headers:
+            Host:
+                - soft98.ir
+        method: GET
+        path:
+            - /
+      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 25.24 MB/s"
+      network: http
+      port: 59421
+      server: 94.237.93.9
+      tls: false
+      type: vless
+      uuid: ccbc334b-de33-4431-89b4-35b756230f51
+    - client-fingerprint: chrome
+      http-opts:
+        headers:
+            Host:
+                - soft98.ir
+        method: GET
+        path:
+            - /
+      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 24.95 MB/s"
+      network: http
+      port: 59421
+      server: 94.237.93.9
+      servername: soft98.ir
+      tls: false
+      type: vless
+      udp: true
+      uuid: ccbc334b-de33-4431-89b4-35b756230f51
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 22.94 MB/s"
+      network: tcp
       port: 443
-      server: cloudflare.182682.xyz
-      servername: l.ayovo.netlib.re
+      reality-opts:
+        public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg
+        short-id: 48720c
+      server: 94.228.213.219
+      servername: hls-svod.itunes.apple.com
+      tls: true
+      type: vless
+      uuid: 45e3b7ad-03b6-42fc-b616-1e92bdd0a5b3
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 22.92 MB/s"
+      network: tcp
+      port: 443
+      reality-opts:
+        public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg
+        short-id: 48720c
+      server: 94.228.213.219
+      servername: hls-svod.itunes.apple.com
       tls: true
       type: vless
       udp: true
-      uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-      ws-opts:
-        headers:
-            Host: l.ayovo.netlib.re
-        path: /?ed=2560
-    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 23.10 MB/s"
-      network: ws
+      uuid: 45e3b7ad-03b6-42fc-b616-1e92bdd0a5b3
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 22.91 MB/s"
+      network: tcp
       port: 443
-      server: cloudflare.182682.xyz
-      servername: l.ayovo.netlib.re
+      reality-opts:
+        public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg
+        short-id: 48720c
+      server: 94.228.213.219
+      servername: hls-svod.itunes.apple.com
       tls: true
       type: vless
-      uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-      ws-opts:
-        headers:
-            Host: l.ayovo.netlib.re
-        path: /?ed=2560
+      udp: true
+      uuid: 45e3b7ad-03b6-42fc-b616-1e92bdd0a5b3
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 22.87 MB/s"
+      network: tcp
+      port: 443
+      reality-opts:
+        public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg
+        short-id: 48720c
+      server: 94.228.213.219
+      servername: hls-svod.itunes.apple.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 45e3b7ad-03b6-42fc-b616-1e92bdd0a5b3
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 22.78 MB/s"
+      network: tcp
+      port: 443
+      reality-opts:
+        public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg
+        short-id: 48720c
+      server: 94.228.213.219
+      servername: hls-svod.itunes.apple.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 45e3b7ad-03b6-42fc-b616-1e92bdd0a5b3
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 22.73 MB/s"
+      network: tcp
+      port: 443
+      reality-opts:
+        public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg
+        short-id: 48720c
+      server: 94.228.213.219
+      servername: hls-svod.itunes.apple.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 45e3b7ad-03b6-42fc-b616-1e92bdd0a5b3
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 22.62 MB/s"
+      password: test.+
+      port: 30446
+      server: testkr3.ssv.vc
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: test
     - http-opts:
-        headers:
-            Host:
-                - soft98.ir
-        method: GET
-        path:
-            - /
-      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 22.93 MB/s"
-      network: http
-      port: 59421
-      server: 94.237.93.9
-      servername: soft98.ir
-      tls: false
-      type: vless
-      udp: true
-      uuid: ccbc334b-de33-4431-89b4-35b756230f51
-    - client-fingerprint: chrome
-      http-opts:
-        headers:
-            Host:
-                - soft98.ir
-        method: GET
-        path:
-            - /
-      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 22.63 MB/s"
-      network: http
-      port: 59421
-      server: 94.237.93.9
-      servername: soft98.ir
-      tls: false
-      type: vless
-      udp: true
-      uuid: ccbc334b-de33-4431-89b4-35b756230f51
-    - client-fingerprint: chrome
-      http-opts:
         headers:
             Host:
                 - soft98.ir
@@ -347,7 +226,7 @@ proxies:
         - h2
         - http/1.1
       client-fingerprint: chrome
-      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 22.22 MB/s"
+      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 22.57 MB/s"
       network: ws
       port: 443
       server: 5.39.249.146
@@ -360,208 +239,218 @@ proxies:
         headers:
             Host: page.anjue39.qzz.io
         path: /?ed=2048
-    - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 21.48 MB/s"
-      network: tcp
-      port: 443
-      reality-opts:
-        public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg
-        short-id: 48720c
-      server: 94.228.213.219
-      servername: hls-svod.itunes.apple.com
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 22.25 MB/s"
+      password: test.+
+      port: 30446
+      server: testkr3.ssv.vc
+      skip-cert-verify: true
       tls: true
-      type: vless
+      type: http
+      username: test
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 22.25 MB/s"
+      password: test.+
+      port: 30446
+      server: testkr3.ssv.vc
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: test
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 22.21 MB/s"
+      password: test.+
+      port: 30446
+      server: testkr3.ssv.vc
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: test
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 22.06 MB/s"
+      password: test.+
+      port: 30446
+      server: testkr3.ssv.vc
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: test
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 21.95 MB/s"
+      password: test.+
+      port: 30446
+      server: testkr3.ssv.vc
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: test
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 21.86 MB/s"
+      password: test.+
+      port: 30446
+      server: testkr3.ssv.vc
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: test
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 21.81 MB/s"
+      password: test.+
+      port: 30446
+      server: testkr3.ssv.vc
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: test
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 21.77 MB/s"
+      password: test.+
+      port: 30446
+      server: testkr3.ssv.vc
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: test
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 21.71 MB/s"
+      password: test.+
+      port: 30446
+      server: testkr3.ssv.vc
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: test
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 21.58 MB/s"
+      password: test.+
+      port: 30446
+      server: testkr3.ssv.vc
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: test
+    - name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 21.48 MB/s"
+      password: BxceQaOe
+      port: 443
+      server: 219.76.135.98
+      skip-cert-verify: true
+      sni: t.me%25252Fripaojiedian
+      type: trojan
+    - name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 21.41 MB/s"
+      password: BxceQaOe
+      port: 443
+      server: 219.76.135.98
+      skip-cert-verify: true
+      sni: 219.76.135.98
+      type: trojan
+    - name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 21.41 MB/s"
+      password: BxceQaOe
+      port: 443
+      server: 219.76.135.98
+      skip-cert-verify: true
+      type: trojan
       udp: true
-      uuid: 45e3b7ad-03b6-42fc-b616-1e92bdd0a5b3
-    - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 21.40 MB/s"
-      network: tcp
+    - name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 21.39 MB/s"
+      password: BxceQaOe
       port: 443
-      reality-opts:
-        public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg
-        short-id: 48720c
-      server: 94.228.213.219
-      servername: hls-svod.itunes.apple.com
-      tls: true
-      type: vless
+      server: 219.76.135.98
+      skip-cert-verify: true
+      sni: t.me%2Fripaojiedian
+      type: trojan
+    - name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 21.32 MB/s"
+      password: BxceQaOe
+      port: 443
+      server: 219.76.135.98
+      skip-cert-verify: true
+      sni: t.me/ripaojiedian
+      type: trojan
       udp: true
-      uuid: 45e3b7ad-03b6-42fc-b616-1e92bdd0a5b3
-    - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 21.20 MB/s"
-      network: tcp
+    - name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 21.23 MB/s"
+      password: BxceQaOe
       port: 443
-      reality-opts:
-        public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg
-        short-id: 48720c
-      server: 94.228.213.219
-      servername: hls-svod.itunes.apple.com
+      server: 219.76.135.98
+      skip-cert-verify: true
+      sni: 219.76.135.98
+      type: trojan
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 21.05 MB/s"
+      password: test.+
+      port: 30446
+      server: testkr3.ssv.vc
+      skip-cert-verify: true
       tls: true
-      type: vless
+      type: http
+      username: test
+    - name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 21.03 MB/s"
+      password: BxceQaOe
+      port: 443
+      server: 219.76.135.98
+      skip-cert-verify: true
+      sni: 219.76.135.98
+      type: trojan
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 21.02 MB/s"
+      password: test.+
+      port: 30446
+      server: testkr3.ssv.vc
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: test
+    - name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 21.02 MB/s"
+      password: BxceQaOe
+      port: 443
+      server: 219.76.135.98
+      skip-cert-verify: true
+      type: trojan
       udp: true
-      uuid: 45e3b7ad-03b6-42fc-b616-1e92bdd0a5b3
-    - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 21.14 MB/s"
-      network: tcp
+    - name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 20.83 MB/s"
+      password: BxceQaOe
       port: 443
-      reality-opts:
-        public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg
-        short-id: 48720c
-      server: 94.228.213.219
-      servername: hls-svod.itunes.apple.com
+      server: 219.76.135.98
+      skip-cert-verify: true
+      sni: 219.76.135.98
+      type: trojan
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 20.41 MB/s"
+      password: test.+
+      port: 30446
+      server: testkr3.ssv.vc
+      skip-cert-verify: true
       tls: true
-      type: vless
-      uuid: 45e3b7ad-03b6-42fc-b616-1e92bdd0a5b3
-    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 21.14 MB/s"
-      network: ws
-      port: 443
-      server: 104.16.250.22
-      servername: l.ayovo.netlib.re
-      tls: true
-      type: vless
-      udp: true
-      uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-      ws-opts:
-        headers:
-            Host: l.ayovo.netlib.re
-        path: /?ed=2560
-    - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 21.01 MB/s"
-      network: tcp
-      port: 443
-      reality-opts:
-        public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg
-        short-id: 48720c
-      server: 94.228.213.219
-      servername: hls-svod.itunes.apple.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 45e3b7ad-03b6-42fc-b616-1e92bdd0a5b3
-    - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 20.88 MB/s"
-      network: tcp
-      port: 443
-      reality-opts:
-        public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg
-        short-id: 48720c
-      server: 94.228.213.219
-      servername: hls-svod.itunes.apple.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 45e3b7ad-03b6-42fc-b616-1e92bdd0a5b3
-    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 20.79 MB/s"
-      network: ws
-      port: 443
-      server: 104.16.250.22
-      servername: l.ayovo.netlib.re
-      tls: true
-      type: vless
-      udp: true
-      uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-      ws-opts:
-        headers:
-            Host: l.ayovo.netlib.re
-        path: /x-aniu/?ed=2560
-    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 20.37 MB/s"
-      network: ws
-      port: 443
-      server: cloudflare.182682.xyz
-      servername: l.ayovo.netlib.re
-      tls: true
-      type: vless
-      udp: true
-      uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-      ws-opts:
-        headers:
-            Host: l.ayovo.netlib.re
-        path: /?ed=2560
-    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 20.10 MB/s"
-      network: ws
-      port: 443
-      server: cloudflare.182682.xyz
-      servername: l.ayovo.netlib.re
-      tls: true
-      type: vless
-      uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-      ws-opts:
-        headers:
-            Host: l.ayovo.netlib.re
-        path: /?ed=2560
-    - client-fingerprint: safari
-      flow: xtls-rprx-vision
-      name: "\U0001F1F9\U0001F1FC TW | ⬇️ 20.08 MB/s"
-      network: tcp
-      port: 443
-      reality-opts:
-        public-key: -r9XcOa4PqlVraJwpM-DB8SHHw27W-Lq8MFnvEqwMSk
-      server: 2026.01.1.tw.aimirror.top
-      servername: www.icloud.com
-      tls: true
-      type: vless
-      uuid: eeaa07ca-2693-42f8-e544-a16521d8e922
-    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 19.58 MB/s"
-      network: ws
-      port: 443
-      server: 104.16.250.22
-      servername: l.ayovo.netlib.re
-      tls: true
-      type: vless
-      uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-      ws-opts:
-        headers:
-            Host: l.ayovo.netlib.re
-        path: /?ed=2560
+      type: http
+      username: test
+    - name: "\U0001F1E9\U0001F1EA DE | ⬇️ 19.47 MB/s"
+      port: 1080
+      server: 193.233.254.9
+      type: socks5
+    - name: "\U0001F1E9\U0001F1EA DE | ⬇️ 19.34 MB/s"
+      port: 1080
+      server: 193.233.254.9
+      type: socks5
     - alterId: 0
       cipher: auto
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 19.35 MB/s"
+      name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 19.17 MB/s"
+      network: ws
+      port: 55185
+      server: 8.218.1.23
+      tls: false
+      type: vmess
+      uuid: 7f06e18e-e5db-43eb-8bb8-774d5c472cc9
+      ws-opts:
+        path: /Notif_Chat
+    - name: "\U0001F1E9\U0001F1EA DE | ⬇️ 19.07 MB/s"
+      port: 1080
+      server: 193.233.254.8
+      type: socks5
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 18.57 MB/s"
+      network: ws
+      port: 55185
+      server: 8.210.194.84
+      tls: false
+      type: vmess
+      uuid: 681edbbe-bdb5-4e99-b143-b995bd84ceb8
+      ws-opts:
+        path: /Notif_Chat
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 18.18 MB/s"
       port: 180
       server: 82.198.246.97
       tls: false
       type: vmess
       uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8 US 202 | ⬇️ 8MB/s"
-      network: ws
-      port: 443
-      server: 104.16.250.22
-      servername: l.ayovo.netlib.re
-      tls: true
-      type: vless
-      uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-      ws-opts:
-        headers:
-            Host: l.ayovo.netlib.re
-        path: /?ed=2560
-    - name: "\U0001F1E9\U0001F1EA DE 103 | ⬇️ 3MB/s"
-      port: 1080
-      server: 193.233.254.8
-      type: socks5
-    - name: "\U0001F1FA\U0001F1F8 US 182 | ⬇️ 1MB/s"
-      network: ws
-      port: 443
-      server: 162.159.44.142
-      servername: l.ayovo.netlib.re
-      tls: true
-      type: vless
-      udp: true
-      uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-      ws-opts:
-        headers:
-            Host: l.ayovo.netlib.re
-        path: /?ed=2560
-    - name: "\U0001F1E9\U0001F1EA DE 101 | ⬇️ 1MB/s"
-      port: 1080
-      server: 193.233.254.9
-      type: socks5
     - client-fingerprint: firefox
-      name: "\U0001F1EE\U0001F1F9 IT 070 | ⬇️ 5MB/s"
+      name: "\U0001F1EE\U0001F1F9 IT | ⬇️ 17.31 MB/s"
       network: tcp
       port: 5058
       reality-opts:
@@ -584,86 +473,6 @@ proxies:
         headers:
             Host: l.ayovo.netlib.re
         path: /?ed=2560
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1ED\U0001F1F0 HK 125 | ⬇️ 23MB/s"
-      network: ws
-      port: 55185
-      server: 8.218.1.23
-      tls: false
-      type: vmess
-      uuid: 7f06e18e-e5db-43eb-8bb8-774d5c472cc9
-      ws-opts:
-        path: /Notif_Chat
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1ED\U0001F1F0 HK 124 | ⬇️ 23MB/s"
-      network: ws
-      port: 55185
-      server: 8.210.194.84
-      tls: false
-      type: vmess
-      uuid: 681edbbe-bdb5-4e99-b143-b995bd84ceb8
-      ws-opts:
-        path: /Notif_Chat
-    - name: "\U0001F1E9\U0001F1EA DE 099 | ⬇️ 1MB/s"
-      port: 1080
-      server: 193.233.254.9
-      type: socks5
-    - client-fingerprint: firefox
-      name: "\U0001F1EE\U0001F1F9 IT 079 | ⬇️ 5MB/s"
-      network: tcp
-      port: 5058
-      reality-opts:
-        public-key: 04E0TOQrXL1Z40zAF99p6MR3WC4-iaAcVB4WNcDpuXo
-      server: 57.131.19.236
-      servername: refersion.com
-      tls: true
-      type: vless
-      uuid: 9273eeed-bc0a-463a-9556-54d50674c91a
-    - name: "\U0001F1F0\U0001F1F7 KR 023 | ⬇️ 13MB/s"
-      password: test.+
-      port: 30446
-      server: testkr3.ssv.vc
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: test
-    - name: "\U0001F1E9\U0001F1EA DE 110 | ⬇️ 10MB/s"
-      port: 1080
-      server: 193.233.254.7
-      type: socks5
-      username: T2dAMTkzLjIzMy4yNTQuNzpAMTkzLjIzMy4yNTQuNw%3D%3D
-    - name: "\U0001F1E9\U0001F1EA DE 114 | ⬇️ 2MB/s"
-      port: 1080
-      server: 193.233.254.8
-      type: socks5
-      username: T2dAMTkzLjIzMy4yNTQuODpAMTkzLjIzMy4yNTQuODo%3D
-    - client-fingerprint: chrome
-      name: "\U0001F1E9\U0001F1EA DE 105 | ⬇️ 13MB/s"
-      network: ws
-      port: 2053
-      server: xhero.kharabetam.de
-      servername: mrx.xher0.de
-      tls: true
-      type: vless
-      uuid: 33a57acf-163f-4cdd-8b23-cc52a58f2362
-      ws-opts:
-        headers:
-            Host: mrx.xher0.de
-        path: /IfUknowThenUKnow
-    - name: "\U0001F1FA\U0001F1F8 US 089 | ⬇️ 1MB/s"
-      network: ws
-      port: 443
-      server: 162.159.44.142
-      servername: l.ayovo.netlib.re
-      tls: true
-      type: vless
-      uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-      ws-opts:
-        headers:
-            Host: l.ayovo.netlib.re
-        path: /?ed=2560
     - client-fingerprint: chrome
       name: "\U0001F1E9\U0001F1EA DE 106 | ⬇️ 13MB/s"
       network: ws
@@ -678,52 +487,13 @@ proxies:
         headers:
             Host: mrx.xher0.de
         path: /IfUknowThenUKnow
-    - name: "\U0001F1FA\U0001F1F8 US 155 | ⬇️ 11MB/s"
-      network: ws
-      port: 443
-      server: cloudflare.182682.xyz
-      servername: l.ayovo.netlib.re
-      tls: true
-      type: vless
-      udp: true
-      uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-      ws-opts:
-        headers:
-            Host: l.ayovo.netlib.re
-        path: /x-aniu/?ed=2560
-    - name: "\U0001F1FA\U0001F1F8 US 186 | ⬇️ 9MB/s"
-      network: ws
-      port: 443
-      server: 104.17.25.173
-      servername: l.ayovo.netlib.re
-      tls: true
-      type: vless
-      udp: true
-      uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-      ws-opts:
-        headers:
-            Host: l.ayovo.netlib.re
-        path: /?ed=2560
-    - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8 US 189 | ⬇️ 19MB/s"
+    - name: "\U0001F1FA\U0001F1F8 US 163 | ⬇️ 20MB/s"
       network: ws
       port: 443
       server: 104.16.250.22
       servername: l.ayovo.netlib.re
       tls: true
       type: vless
-      uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-      ws-opts:
-        headers:
-            Host: l.ayovo.netlib.re
-        path: /?ed=2560
-    - name: "\U0001F1FA\U0001F1F8 US 172 | ⬇️ 1MB/s"
-      network: ws
-      port: 443
-      server: 162.159.44.142
-      servername: l.ayovo.netlib.re
-      tls: true
-      type: vless
       udp: true
       uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
       ws-opts:
@@ -732,103 +502,64 @@ proxies:
         path: /?ed=2560
     - client-fingerprint: safari
       flow: xtls-rprx-vision
-      name: "\U0001F1ED\U0001F1F0 HK 003 | ⬇️ 33MB/s"
+      name: "\U0001F1ED\U0001F1F0 HK 002 | ⬇️ 2MB/s"
       network: tcp
       port: 443
       reality-opts:
         public-key: KwIjeh5fgXZEOlg68dpzFTNAcbdqI0WUacwlcOgGrCU
-      server: 2026.01.2.hk.aimirror.top
+      server: 2026.01.1.hk.aimirror.top
       servername: www.icloud.com
       tls: true
       type: vless
       uuid: eeaa07ca-2693-42f8-e544-a16521d8e922
     - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8 US 054 | ⬇️ 4MB/s"
-      network: ws
-      port: 443
-      server: cloudflare.182682.xyz
-      servername: l.ayovo.netlib.re
-      tls: true
-      type: vless
-      uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-      ws-opts:
-        headers:
-            Host: l.ayovo.netlib.re
-        path: /?ed=2560
-    - name: "\U0001F1FA\U0001F1F8 US 072 | ⬇️ 18MB/s"
-      network: ws
-      port: 443
-      server: cloudflare.182682.xyz
-      servername: l.ayovo.netlib.re
-      tls: true
-      type: vless
-      uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-      ws-opts:
-        headers:
-            Host: l.ayovo.netlib.re
-        path: /x-aniu/?ed=2560
-    - name: "\U0001F1FA\U0001F1F8 US 173 | ⬇️ 8MB/s"
+      name: "\U0001F1FA\U0001F1F8 US 196 | ⬇️ 2MB/s"
       network: ws
       port: 443
       server: 104.17.25.173
       servername: l.ayovo.netlib.re
       tls: true
       type: vless
-      udp: true
-      uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-      ws-opts:
-        headers:
-            Host: l.ayovo.netlib.re
-        path: /?ed=2560
-    - name: "\U0001F1FA\U0001F1F8 US 162 | ⬇️ 1MB/s"
-      network: ws
-      port: 443
-      server: 162.159.45.232
-      servername: l.ayovo.netlib.re
-      tls: true
-      type: vless
-      udp: true
-      uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-      ws-opts:
-        headers:
-            Host: l.ayovo.netlib.re
-        path: /?ed=2560
-    - name: "\U0001F1FA\U0001F1F8 US 146 | ⬇️ 5MB/s"
-      network: ws
-      port: 443
-      server: cloudflare.182682.xyz
-      servername: l.ayovo.netlib.re
-      tls: true
-      type: vless
       uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
       ws-opts:
         headers:
             Host: l.ayovo.netlib.re
         path: /x-aniu/?ed=2560
-    - name: "\U0001F1E9\U0001F1EA DE 120 | ⬇️ 10MB/s"
-      network: ws
-      port: 443
-      server: 192.0.54.34
-      servername: cErT.sHakHle.iR
-      tls: true
-      type: vless
-      uuid: 96dd3618-ae4e-4a9d-89f9-5316296d7814
-      ws-opts:
-        headers:
-            Host: cErT.sHakHle.iR
-        path: /?ed=1024/?TELEGRAM--BYA--CHANEL----@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN--@JKVPN---@JKVPN---@JKVPN---@JKVPN
     - client-fingerprint: safari
       flow: xtls-rprx-vision
-      name: "\U0001F1F0\U0001F1F7 KR 010 | ⬇️ 16MB/s"
+      name: "\U0001F1F9\U0001F1FC TW 137 | ⬇️ 23MB/s"
       network: tcp
       port: 443
       reality-opts:
-        public-key: SXqEq6ZholDwAcZRjV-E4IjCP_qUNeDcnzroQ4lwoA8
-      server: 2026.01.1.kr.aimirror.top
+        public-key: -r9XcOa4PqlVraJwpM-DB8SHHw27W-Lq8MFnvEqwMSk
+      server: 2026.01.1.tw.aimirror.top
       servername: www.icloud.com
       tls: true
       type: vless
       uuid: eeaa07ca-2693-42f8-e544-a16521d8e922
+    - client-fingerprint: safari
+      flow: xtls-rprx-vision
+      name: "\U0001F1F0\U0001F1F7 KR 013 | ⬇️ 9MB/s"
+      network: tcp
+      port: 443
+      reality-opts:
+        public-key: SXqEq6ZholDwAcZRjV-E4IjCP_qUNeDcnzroQ4lwoA8
+      server: 2026.01.2.kr.aimirror.top
+      servername: www.icloud.com
+      tls: true
+      type: vless
+      uuid: eeaa07ca-2693-42f8-e544-a16521d8e922
+    - client-fingerprint: firefox
+      name: "\U0001F1EE\U0001F1F9 IT 070 | ⬇️ 5MB/s"
+      network: tcp
+      port: 5058
+      reality-opts:
+        public-key: 04E0TOQrXL1Z40zAF99p6MR3WC4-iaAcVB4WNcDpuXo
+      server: 57.131.19.236
+      servername: refersion.com
+      tls: true
+      type: vless
+      uuid: 9273eeed-bc0a-463a-9556-54d50674c91a
     - client-fingerprint: chrome
       name: "\U0001F1FA\U0001F1F8 US 078 | ⬇️ 6MB/s"
       network: ws
@@ -843,23 +574,17 @@ proxies:
         headers:
             Host: l.ayovo.netlib.re
         path: /?ed=2560
-    - client-fingerprint: safari
-      flow: xtls-rprx-vision
-      name: "\U0001F1F0\U0001F1F7 KR 013 | ⬇️ 9MB/s"
-      network: tcp
-      port: 443
-      reality-opts:
-        public-key: SXqEq6ZholDwAcZRjV-E4IjCP_qUNeDcnzroQ4lwoA8
-      server: 2026.01.2.kr.aimirror.top
-      servername: www.icloud.com
-      tls: true
-      type: vless
-      uuid: eeaa07ca-2693-42f8-e544-a16521d8e922
-    - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8 US 178 | ⬇️ 1000KB/s"
+    - name: "\U0001F1FA\U0001F1F8 US 140 | ⬇️ 9MB/s"
+      password: ZfO6JRez
+      port: 51209
+      server: 216.167.92.219
+      tls: false
+      type: http
+      username: kZXMC3Z1
+    - name: "\U0001F1FA\U0001F1F8 US 195 | ⬇️ 2MB/s"
       network: ws
       port: 443
-      server: 162.159.16.63
+      server: 104.17.25.173
       servername: l.ayovo.netlib.re
       tls: true
       type: vless
@@ -876,139 +601,15 @@ proxies:
       sni: t.me%2Fripaojiedian
       type: trojan
       udp: true
-    - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8 US 121 | ⬇️ 24MB/s"
-      network: ws
-      port: 443
-      server: 104.17.25.173
-      servername: l.ayovo.netlib.re
-      tls: true
-      type: vless
-      uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-      ws-opts:
-        headers:
-            Host: l.ayovo.netlib.re
-        path: /?ed=2560
-    - name: "\U0001F1FA\U0001F1F8 US 088 | ⬇️ 2MB/s"
-      network: ws
-      port: 443
-      server: 104.16.250.22
-      servername: l.ayovo.netlib.re
-      tls: true
-      type: vless
-      udp: true
-      uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-      ws-opts:
-        headers:
-            Host: l.ayovo.netlib.re
-        path: /?ed=2560
-    - name: "\U0001F1FA\U0001F1F8 US 041 | ⬇️ 7MB/s"
+    - name: "\U0001F1FA\U0001F1F8 US 072 | ⬇️ 18MB/s"
       network: ws
       port: 443
       server: cloudflare.182682.xyz
       servername: l.ayovo.netlib.re
       tls: true
       type: vless
-      udp: true
       uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
       ws-opts:
         headers:
             Host: l.ayovo.netlib.re
         path: /x-aniu/?ed=2560
-    - name: "\U0001F1FA\U0001F1F8 US 149 | ⬇️ 6MB/s"
-      network: ws
-      port: 443
-      server: cloudflare.182682.xyz
-      servername: l.ayovo.netlib.re
-      tls: true
-      type: vless
-      uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-      ws-opts:
-        headers:
-            Host: l.ayovo.netlib.re
-        path: /?ed=2560
-    - name: "\U0001F1FA\U0001F1F8 US 140 | ⬇️ 9MB/s"
-      password: ZfO6JRez
-      port: 51209
-      server: 216.167.92.219
-      tls: false
-      type: http
-      username: kZXMC3Z1
-    - name: "\U0001F1FA\U0001F1F8 US 176 | ⬇️ 11MB/s"
-      network: ws
-      port: 443
-      server: 104.17.25.173
-      servername: l.ayovo.netlib.re
-      tls: true
-      type: vless
-      udp: true
-      uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-      ws-opts:
-        headers:
-            Host: l.ayovo.netlib.re
-        path: /?ed=2560
-    - name: "\U0001F1FA\U0001F1F8 US 087 | ⬇️ 1MB/s"
-      network: ws
-      port: 443
-      server: 162.159.45.232
-      servername: l.ayovo.netlib.re
-      tls: true
-      type: vless
-      uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-      ws-opts:
-        headers:
-            Host: l.ayovo.netlib.re
-        path: /?ed=2560
-    - name: "\U0001F1FA\U0001F1F8 US 152 | ⬇️ 11MB/s"
-      network: ws
-      port: 443
-      server: cloudflare.182682.xyz
-      servername: l.ayovo.netlib.re
-      tls: true
-      type: vless
-      uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-      ws-opts:
-        headers:
-            Host: l.ayovo.netlib.re
-        path: /?ed=2560
-    - name: "\U0001F1FA\U0001F1F8 US 116 | ⬇️ 10MB/s"
-      network: ws
-      port: 443
-      server: 104.17.25.173
-      servername: l.ayovo.netlib.re
-      tls: true
-      type: vless
-      uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-      ws-opts:
-        headers:
-            Host: l.ayovo.netlib.re
-        path: /?ed=2560
-    - client-fingerprint: chrome
-      http-opts:
-        headers:
-            Host:
-                - www.speedtest.net
-        method: GET
-        path:
-            - /
-      name: "\U0001F1E6\U0001F1F9 AT 100 | ⬇️ 1MB/s"
-      network: http
-      port: 443
-      server: 152.53.33.43
-      tls: false
-      type: vless
-      udp: true
-      uuid: 057b649c-54b1-4f68-86b1-90381637a2cf
-    - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8 US 069 | ⬇️ 8MB/s"
-      network: ws
-      port: 443
-      server: cloudflare.182682.xyz
-      servername: l.ayovo.netlib.re
-      tls: true
-      type: vless
-      uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-      ws-opts:
-        headers:
-            Host: l.ayovo.netlib.re
-        path: /?ed=2560

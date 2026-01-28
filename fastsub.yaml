@@ -2,7 +2,7 @@ proxy-providers: {}
 proxies:
     - client-fingerprint: chrome
       flow: xtls-rprx-vision
-      name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 30.23 MB/s"
+      name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 33.10 MB/s"
       network: tcp
       port: 443
       reality-opts:
@@ -16,20 +16,7 @@ proxies:
       uuid: 45e3b7ad-03b6-42fc-b616-1e92bdd0a5b3
     - client-fingerprint: chrome
       flow: xtls-rprx-vision
-      name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 29.98 MB/s"
-      network: tcp
-      port: 443
-      reality-opts:
-        public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg
-        short-id: 48720c
-      server: 94.228.213.219
-      servername: hls-svod.itunes.apple.com
-      tls: true
-      type: vless
-      uuid: 45e3b7ad-03b6-42fc-b616-1e92bdd0a5b3
-    - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 29.91 MB/s"
+      name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 32.70 MB/s"
       network: tcp
       port: 443
       reality-opts:
@@ -43,7 +30,20 @@ proxies:
       uuid: 45e3b7ad-03b6-42fc-b616-1e92bdd0a5b3
     - client-fingerprint: chrome
       flow: xtls-rprx-vision
-      name: "\U0001F1E8\U0001F1FF CZ | ⬇️ 29.38 MB/s"
+      name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 32.61 MB/s"
+      network: tcp
+      port: 443
+      reality-opts:
+        public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg
+        short-id: 48720c
+      server: 94.228.213.219
+      servername: hls-svod.itunes.apple.com
+      tls: true
+      type: vless
+      uuid: 45e3b7ad-03b6-42fc-b616-1e92bdd0a5b3
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1E8\U0001F1FF CZ | ⬇️ 32.08 MB/s"
       network: tcp
       port: 443
       reality-opts:
@@ -54,9 +54,21 @@ proxies:
       tls: true
       type: vless
       uuid: 45e3b7ad-03b6-42fc-b616-1e92bdd0a5b3
+    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 29.98 MB/s"
+      network: ws
+      port: 443
+      server: 104.16.250.22
+      servername: l.ayovo.netlib.re
+      tls: true
+      type: vless
+      uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+      ws-opts:
+        headers:
+            Host: l.ayovo.netlib.re
+        path: /x-aniu/?ed=2560
     - client-fingerprint: chrome
       flow: xtls-rprx-vision
-      name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 28.74 MB/s"
+      name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 29.65 MB/s"
       network: tcp
       port: 443
       reality-opts:
@@ -68,50 +80,39 @@ proxies:
       type: vless
       udp: true
       uuid: 45e3b7ad-03b6-42fc-b616-1e92bdd0a5b3
-    - name: "\U0001F1E9\U0001F1EA DE | ⬇️ 26.57 MB/s"
-      port: 1080
-      server: 193.233.254.9
-      type: socks5
-    - name: "\U0001F1E9\U0001F1EA DE | ⬇️ 26.34 MB/s"
-      port: 1080
-      server: 193.233.254.9
-      type: socks5
-    - name: "\U0001F1E9\U0001F1EA DE | ⬇️ 25.98 MB/s"
-      port: 1080
-      server: 193.233.254.8
-      type: socks5
-    - name: "\U0001F1E9\U0001F1EA DE | ⬇️ 25.83 MB/s"
-      port: 1080
-      server: 193.233.254.8
-      type: socks5
-      username: T2dAMTkzLjIzMy4yNTQuODpAMTkzLjIzMy4yNTQuODo%3D
-    - name: "\U0001F1E9\U0001F1EA DE | ⬇️ 25.20 MB/s"
+    - name: "\U0001F1E9\U0001F1EA DE | ⬇️ 28.29 MB/s"
       port: 1080
       server: 193.233.254.7
       type: socks5
       username: T2dAMTkzLjIzMy4yNTQuNzpAMTkzLjIzMy4yNTQuNw%3D%3D
-    - name: "\U0001F1E9\U0001F1EA DE | ⬇️ 25.04 MB/s"
-      password: '@193.233.254.8:'
-      port: 1080
-      server: 193.233.254.8
-      type: socks5
-      username: Og@193.233.254.8
-    - name: "\U0001F1E9\U0001F1EA DE | ⬇️ 24.91 MB/s"
-      port: 1080
-      server: 193.233.254.9
-      type: socks5
-      username: Og@193.233.254.9
-    - name: "\U0001F1E9\U0001F1EA DE | ⬇️ 24.04 MB/s"
-      port: 1080
-      server: 193.233.254.9
-      type: socks5
-      username: T2dAMTkzLjIzMy4yNTQuOTpAMTkzLjIzMy4yNTQuOTo%3D
-    - name: "\U0001F1E9\U0001F1EA DE | ⬇️ 23.99 MB/s"
+    - name: "\U0001F1E9\U0001F1EA DE | ⬇️ 27.88 MB/s"
       port: 1080
       server: 193.233.254.8
       type: socks5
       username: T2dAMTkzLjIzMy4yNTQuODpAMTkzLjIzMy4yNTQuODo%3D
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 16.95 MB/s"
+    - name: "\U0001F1E9\U0001F1EA DE | ⬇️ 27.53 MB/s"
+      port: 1080
+      server: 193.233.254.8
+      type: socks5
+      username: T2dAMTkzLjIzMy4yNTQuODpAMTkzLjIzMy4yNTQuODo%3D
+    - name: "\U0001F1E9\U0001F1EA DE | ⬇️ 27.01 MB/s"
+      port: 1080
+      server: 193.233.254.9
+      type: socks5
+    - name: "\U0001F1E9\U0001F1EA DE | ⬇️ 26.57 MB/s"
+      port: 1080
+      server: 193.233.254.8
+      type: socks5
+    - name: "\U0001F1E9\U0001F1EA DE | ⬇️ 26.16 MB/s"
+      port: 1080
+      server: 193.233.254.9
+      type: socks5
+      username: Og@193.233.254.9
+    - name: "\U0001F1E9\U0001F1EA DE | ⬇️ 25.63 MB/s"
+      port: 1080
+      server: 193.233.254.9
+      type: socks5
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 16.61 MB/s"
       password: test.+
       port: 30446
       server: testkr3.ssv.vc
@@ -119,7 +120,7 @@ proxies:
       tls: true
       type: http
       username: test
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 16.94 MB/s"
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 16.58 MB/s"
       password: test.+
       port: 30446
       server: testkr3.ssv.vc
@@ -127,7 +128,7 @@ proxies:
       tls: true
       type: http
       username: test
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 16.93 MB/s"
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 16.58 MB/s"
       password: test.+
       port: 30446
       server: testkr3.ssv.vc
@@ -135,7 +136,7 @@ proxies:
       tls: true
       type: http
       username: test
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 16.85 MB/s"
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 16.52 MB/s"
       password: test.+
       port: 30446
       server: testkr3.ssv.vc
@@ -143,7 +144,7 @@ proxies:
       tls: true
       type: http
       username: test
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 16.73 MB/s"
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 16.41 MB/s"
       password: test.+
       port: 30446
       server: testkr3.ssv.vc
@@ -151,25 +152,82 @@ proxies:
       tls: true
       type: http
       username: test
-    - client-fingerprint: chrome
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 16.16 MB/s"
-      network: ws
-      port: 8443
-      server: v1.dabache.top
-      servername: jp-aniu.xmmaa.dpdns.org
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 16.40 MB/s"
+      password: test.+
+      port: 30446
+      server: testkr3.ssv.vc
+      skip-cert-verify: true
       tls: true
-      type: vless
-      udp: true
-      uuid: e258977b-e413-4718-a3af-02d75492c349
-      ws-opts:
-        headers:
-            Host: jp-aniu.xmmaa.dpdns.org
-        path: /
-    - client-fingerprint: chrome
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 14.98 MB/s"
+      type: http
+      username: test
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 16.39 MB/s"
+      password: test.+
+      port: 30446
+      server: testkr3.ssv.vc
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: test
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 16.38 MB/s"
+      password: test.+
+      port: 30446
+      server: testkr3.ssv.vc
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: test
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 16.35 MB/s"
+      password: test.+
+      port: 30446
+      server: testkr3.ssv.vc
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: test
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 16.30 MB/s"
+      password: test.+
+      port: 30446
+      server: testkr3.ssv.vc
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: test
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 16.05 MB/s"
+      password: test.+
+      port: 30446
+      server: testkr3.ssv.vc
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: test
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 15.67 MB/s"
+      password: test.+
+      port: 30446
+      server: testkr3.ssv.vc
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: test
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 15.64 MB/s"
+      password: test.+
+      port: 30446
+      server: testkr3.ssv.vc
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: test
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 15.42 MB/s"
+      password: test.+
+      port: 30446
+      server: testkr3.ssv.vc
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: test
+    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 10.88 MB/s"
       network: ws
       port: 443
-      server: 104.17.25.173
+      server: 104.16.250.22
       servername: l.ayovo.netlib.re
       tls: true
       type: vless
@@ -178,20 +236,7 @@ proxies:
         headers:
             Host: l.ayovo.netlib.re
         path: /?ed=2560
-    - client-fingerprint: safari
-      flow: xtls-rprx-vision
-      name: "\U0001F1F9\U0001F1FC TW | ⬇️ 13.44 MB/s"
-      network: tcp
-      port: 443
-      reality-opts:
-        public-key: -r9XcOa4PqlVraJwpM-DB8SHHw27W-Lq8MFnvEqwMSk
-      server: 2026.01.1.tw.aimirror.top
-      servername: www.icloud.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: eeaa07ca-2693-42f8-e544-a16521d8e922
-    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 10.91 MB/s"
+    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 10.85 MB/s"
       password: ZfO6JRez
       port: 51209
       server: 216.167.92.219
